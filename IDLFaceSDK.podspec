@@ -89,7 +89,7 @@ LICENSE
 
 
 
-  spec.source_files  = "IDLFaceSDK/IDLFaceSDK/Headers/*.{h}"
+  spec.source_files  = "IDLFaceSDK/IDLFaceSDK.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = "IDLFaceSDK/IDLFaceSDK.framework"
 
@@ -105,7 +105,7 @@ LICENSE
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "IDLFaceSDK/com.baidu.idl.face.faceSDK.bundle","IDLFaceSDK/com.baidu.idl.face.model.bundle"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
